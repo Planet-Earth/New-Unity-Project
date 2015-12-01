@@ -46,11 +46,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Translation.cs" />
+     <Compile Include="Assets\Target.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>K:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>K:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>K:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>K:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>K:/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
